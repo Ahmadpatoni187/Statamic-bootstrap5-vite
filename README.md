@@ -72,3 +72,14 @@ export default defineConfig({
 ```
 {{ vite src="resources/js/app.js|resources/sass/app.scss" }}
 ```
+
+## Uninstall Tailwind CSS if no needs
+```
+npm uninstall tailwindcss
+
+```
+also (uninstall tailwind dev dependencies, if no other package needs them)
+```
+npm uninstall autoprefixer
+npm uninstall postcss
+```
