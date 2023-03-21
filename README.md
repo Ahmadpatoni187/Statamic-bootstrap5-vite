@@ -67,3 +67,8 @@ export default defineConfig({
 });
 
 ```
+
+## Masukan ke dalam tampilan view
+```
+{{ vite src="resources/js/app.js|resources/sass/app.scss" }}
+```
